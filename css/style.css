@@ -1,0 +1,155 @@
+header {
+	background-color: rgb(30, 30, 30);
+	position: fixed;
+	height: 105px;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	bottom: 0px;
+}
+
+header a{
+	color: rgb(178, 247, 224);
+}
+
+.error {
+	font-family: "Segoe UI";
+	color: red;
+}
+
+
+body {
+	padding-top: 15em;
+	font-family: "Segoe UI";
+	background-image: url(fond.jpg);
+	background-size: cover;
+	margin: 0;
+	text-align: center;
+	text-decoration: none;
+}
+
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: darkblue;
+}
+
+#div1 {
+	border-radius: 30px;
+	background-color: #dee;
+	margin: 0 auto;
+	width: 550px;
+	border-color: black;
+	box-shadow: 5px 5px 5px grey;
+	font-family: "Segoe UI";
+}
+.publication{
+	background-color: #dee;
+	margin: 0 auto;
+	width: 600px;
+	border-color: light-grey;
+	border:1px solid;
+	box-shadow: 3px 3px 3px grey;
+	font-family: "Segoe UI";
+	color:black;
+	
+	
+}
+
+.rechercheProfil,.abonnements,.abonnés{
+	background-color: #dee;
+	margin: 0 auto;
+	width: 200px;
+	border-color: light-grey;
+	border:1px solid;
+	box-shadow: 3px 3px 3px grey;
+	font-family: "Segoe UI";
+	color:black;
+	
+	
+	
+}
+
+.menu{
+	text-align: right;
+	display:flex;
+	flex-direction: column;
+	position: relative;
+	top: -50px;
+	width: 15%;
+	margin-left:84%;
+	font-weight:bold;
+}
+
+.img_logo{
+	width: 6%;
+	height: 6%;
+	float: left;
+	position: relative;
+	top: -65px;
+	padding-left: 2%;
+}
+
+h1 {
+	text-align: center;
+	font-family: "Segoe UI";
+	color:black;
+	font-weight:bold;
+}
+
+h1:hover{
+	color: aquamarine;
+}
+
+h2 {
+	font-family: sans-serif;
+	text-align: center;
+	font-family: "Segoe UI";
+	text-decoration:underline;
+}
+
+h1#logo {
+	color: lightgrey;
+	align-items: center;
+}
+
+button,
+textarea,
+input,
+select {
+	padding: 5px 10px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 5px;
+}
+
+input[type=submit] {
+	border-radius: 10px;
+	border-color: black;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: black;
+	color: lightgrey;
+	transition: ease 1s;
+}
+
+.align {
+	text-align: center;
+}
+
+
+#conversation a{
+	color: rgb(0, 104, 31);
+}
+
+.trait{
+	margin:0 auto;
+border-top: 3px solid;
+border-color:grey;
+width : 500px;
+border-radius:50px;
+} 
